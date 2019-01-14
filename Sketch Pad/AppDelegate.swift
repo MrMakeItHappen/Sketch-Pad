@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Sketch Pad
-//
-//  Created by Sdot on 1/13/19.
-//  Copyright © 2019 Clear Syntax. All rights reserved.
-//
-
 import UIKit
 import CoreData
 
@@ -16,7 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        UINavigationBar.appearance().tintColor = .white
         return true
     }
 
